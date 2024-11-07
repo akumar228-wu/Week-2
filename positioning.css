@@ -1,0 +1,59 @@
+/* CSS */
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 1.1em;
+   background-color: #94d7e3;
+}
+
+h1 {
+   font-family: Futura, Helvetica, Arial, 'sans-serif';
+   margin-top: 0;
+}
+
+#wrapper {
+   margin: 0 auto;
+   padding: 10px 30px;
+   width: 500px;
+   background-color: white;
+   height: 100%;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+   position: relative;
+}
+
+/* Pig Image Styling */
+img.pig {
+   border: 2px solid black;
+   position: relative;
+   z-index: 1;
+   margin: 10px;
+   width: 287px; /* Adjust size if necessary */
+}
+
+/* Cow Image Overlay Styling */
+img.cow {
+   border: 2px solid black;
+   position: absolute;
+   top: 281px;
+   left: 190px;
+   transform: rotate(10deg);
+   z-index: 2;
+   width: 292px;
+}
+
+#feature {
+   background-color: yellow;
+   padding: 10px;
+   border-top: 2px solid black;
+}
+
+h2 {
+   color: red;
+   font-weight: bold;
+}
+
+p {
+   line-height: 1.6;
+   margin-bottom: 15px;
+}
